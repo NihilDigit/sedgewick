@@ -6,7 +6,7 @@ import tsconfigPaths from 'vite-tsconfig-paths';
 import type { UserConfig } from 'vite';
 
 export default defineConfig({
-  basePath: '/sedgewick',
+  basePath: '/sedgewick/',
   vite: {
     // we do this to avoid Vite from bundling React contexts and cause duplicated contexts conflicts.
     optimizeDeps: {
