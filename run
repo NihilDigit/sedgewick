@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Usage: ./run codes/ch01/BinarySearch.java [args...]
+file="$1"
+shift
+java -cp lib/algs4.jar "$file" "$@"
