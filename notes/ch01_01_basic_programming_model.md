@@ -141,3 +141,9 @@ public static int rank(int key, int[] a, int lo, int hi) {
 
 - Java 程序可以从命令行参数或标准输入（`StdIn`）获得输入，并写入标准输出（`StdOut`）
 - 标准输入流是顺序消耗的：数据读取后不可重读
+- 可以利用 `>` 和 `<` 进行数据流重定向
+
+```shell
+java foo > output.txt
+java bar < input.txt
+```
