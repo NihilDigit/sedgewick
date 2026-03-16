@@ -1,4 +1,4 @@
 {
-  "title": "算法笔记",
-  "pages": ["index", "ch01"]
+  "title": "学习笔记",
+  "pages": ["index", "sedgewick", "csapp", "ostep", "topdown"]
 }

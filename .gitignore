@@ -1,14 +1,19 @@
+# Java / Gradle
 build/
 .gradle/
+*.class
+
+# IDE
+.idea/
 .settings/
 .classpath
 .project
-bin/
-*.class
+
+# misc
 *.pdf
+bin/
 
-# IntelliJ IDEA
-.idea/
-
-# Dependencies
-codes/libs/
+# site
+site/node_modules/
+site/dist/
+site/.source/
