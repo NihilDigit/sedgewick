@@ -6,3 +6,9 @@ build/
 bin/
 *.class
 *.pdf
+
+# IntelliJ IDEA
+.idea/
+
+# Dependencies
+codes/libs/
